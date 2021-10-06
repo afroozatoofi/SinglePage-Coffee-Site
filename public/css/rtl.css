@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Samim";
+    src: url("../fonts/Samim-FD.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/Samim-FD.eot?#iefix") format("embedded-opentype"),
+      /* IE6-IE8 */ url("../fonts/Samim-FD.woff") format("woff"),
+      /* Pretty Modern Browsers */ url("../fonts/Samim-FD.woff2") format("woff2"),
+      /* Pretty Modern Browsers */ url("../fonts/Samim-FD.ttf") format("truetype");
+    /* Safari, Android, iOS */
+  }
+  body,
+  a,
+  span,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  h5,
+  p,
+  div,
+  input::placeholder,
+  label,
+  button,
+  li {
+    font-family: "Samim" !important;
+  }
+  .nav-menu{
+      margin-top: 18px;
+  }
+  .nav-menu li a{
+      font-size: 18px;
+  }
+  a.buy-btn{
+      float:right;  
+  }
+*{
+    letter-spacing: 0 !important;
+}
+#coffee{
+    direction: rtl;
+    text-align: right;
+}
+.col-lg-6.col-md-6.single-review{
+    direction: rtl;
+    text-align:right;
+}
+.col-lg-3.col-md-6.single-counter{
+    text-align: center !important;
+}
+.col-lg-6.col-md-6.single-blog{
+    direction:rtl;
+    text-align: right;
+}
+footer{
+    direction: rtl !important;
+    text-align: right !important;
+}
+@media (max-width:800px){
+     ul{
+        text-align: right !important;
+        
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+}
